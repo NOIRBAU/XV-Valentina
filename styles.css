@@ -1,0 +1,315 @@
+:root {
+    --light-color: #B3C3D4;
+    --color1: #D7DDE2;
+    --color2: #2C3367;
+    --color3: #DFE6ED;
+    --color4: #71706E;
+    --dark-color: #22325F;
+    --black: #1c1c1c;
+    --white-color: #fbfcfc;
+    --z-modal: 1000;
+}
+/*GENÉRICOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+    transition: all 0.35s linear;
+    font-size: 19px;
+}
+body {
+    min-height: 100vh;
+    position: relative;
+}
+.caja {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tit1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 80px;
+    color: var(--color4);
+    padding-bottom: 10px;
+}
+.sub1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 70px;
+    color: var(--color4);
+    padding-bottom: 10px;
+}
+.sub2 {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    color: var(--dark-color);
+    padding-bottom: 0;
+}
+.sub3 {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    color: var(--dark-color);
+    padding-bottom: 10px;
+}
+.frase {
+    font-family: "EB Garamond", serif;
+    color: var(--dark-color);
+    font-style: oblique;
+    padding-bottom: 10px;
+}
+p {
+    font-family: "EB Garamond", serif;
+    color: var(--dark-color);
+    padding-bottom: 10px;
+}
+.colorW {
+    color: var(--white-color);
+}
+h1 {
+    font-family: "Cinzel Decorative", serif;
+    color: var(--dark-color);
+    font-size: large;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+.boton {
+    background-color: var(--color3);
+    border-radius: 10px;
+    border: 1px solid var(--light-color);
+    padding: 10px;
+    font-size: 14px;
+    color: var(--dark-color);
+    -webkit-box-shadow: -1px 5px 15px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 5px 15px -6px rgba(0,0,0,0.75);
+    box-shadow: -1px 5px 15px -6px rgba(0,0,0,0.75);
+    margin: 20px 0 30px 0;
+}
+
+/* PORTADA */
+.portada {
+    background-color: var(--dark-color);
+    overflow: hidden;
+}
+.princess {
+    background-image: url(./assets/princess.png);
+    background-position: bottom;
+    background-size: 21%;
+    background-repeat: no-repeat;
+}
+.stars {
+    background-image: url(./assets/stars.gif);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.logoPortada {
+    width: 180px;
+}
+#contador {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN */
+
+.floresA {
+    background-image: url(./assets/flores1.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+.floresB {
+    background-image: url(./assets/flores2.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.castillo {
+    background-image: url(./assets/castillo.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
+.carruaje {
+    background-image: url(./assets/carruaje.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.invitacionPrincipal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+}
+.corona {
+    width: 150px;
+    height: 100px;
+}
+.zapatilla {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.fecha {
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+/* INFO ADICIONAL */
+
+.adicional {
+    background-color: var(--color3);
+}
+.fondoCastillo {
+    background-image: url(./assets/castillo1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    text-align: center;
+}
+.tituloDetalles {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.vestimentaEje {
+    width: 110px;
+    margin-bottom: 10px;
+}
+.sobre {
+    width: 120px;
+}
+
+/* ASISTENCIA */
+.secAsistencia {
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.floresDecor {
+    width: 40%;
+    margin: 20px 0;
+}
+.asistencia {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+.invChic {
+    background-color: #FAF8F3;
+    padding: 15px 10px 15px 10px;
+}
+.invChic img {
+    width: 80px;
+}
+.invChic p{
+    margin: 10px 5px 8px 5px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* BREAK POINTS */
+
+@media only screen and (max-width: 768px) {
+    .caja {
+        width: 100vw;
+        overflow: hidden;
+    }
+    .sub1 {
+        font-size: 45px;
+    }
+    .sub2 {
+        font-size: 20px;
+    }
+    .sub3 {
+        font-size: 20px;
+    }
+    .frase {
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 1.2;
+    }
+    .tit1 {
+        font-size: 60px;
+    }
+    p {
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 1.2;
+    }
+    .fecha {
+        width: 250px;
+        padding-bottom: 10px;
+    }
+    .carruaje {
+        background-size: 130px;
+    }
+    .castillo {
+        background-size: 180px;
+    }
+    .zapatilla {
+        width: 100px;
+        height: 80px;
+    }
+    .corona {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .invitacionPrincipal {
+        padding-bottom: 130px;
+    }
+    .princess {
+        background-size: 80%;
+    }
+    .tituloDetalles {
+        width: 70%;
+    }
+    .secAsistencia {
+        padding: 80px 10px 120px 10px;
+        text-align: center;
+    }
+    .floresDecor {
+        width: 60%;
+        margin: 0px;
+    }
+    .asistencia {
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    .margTop {
+        margin-top: 20px;
+    }
+}
