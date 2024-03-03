@@ -49,8 +49,8 @@ body {
     padding-bottom: 10px;
 }
 .sub2 {
-    font-family: "EB Garamond", serif;
-    font-size: 24px;
+    font-family: "Allura", cursive;
+    font-size: 32px;
     color: var(--dark-color);
     padding-bottom: 0;
 }
@@ -94,6 +94,9 @@ a {
     -moz-box-shadow: -1px 5px 15px -6px rgba(0,0,0,0.75);
     box-shadow: -1px 5px 15px -6px rgba(0,0,0,0.75);
     margin: 20px 0 30px 0;
+}
+.margenBot {
+    margin: 10px 0;
 }
 
 /* PORTADA */
@@ -168,7 +171,6 @@ a {
 .zapatilla {
     width: 150px;
     height: 150px;
-    margin-bottom: 10px;
 }
 .fecha {
     width: 280px;
@@ -203,6 +205,7 @@ a {
 }
 .sobre {
     width: 120px;
+    margin-bottom: 5px;
 }
 
 /* ASISTENCIA */
@@ -252,7 +255,7 @@ footer {
         font-size: 45px;
     }
     .sub2 {
-        font-size: 20px;
+        font-size: 24px;
     }
     .sub3 {
         font-size: 20px;
