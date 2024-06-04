@@ -122,6 +122,17 @@ a {
 .logoPortada {
     width: 180px;
 }
+.contadorDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flecha {
+    margin-top: 8px;
+    width: 50px;
+    height: 35px;
+}
 #contador {
     margin: 0 auto;
     display: flex;
